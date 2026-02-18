@@ -71,6 +71,20 @@ body {
     50% { opacity: 0.4; }
     100% { opacity: 1; }
 }
+
+/* Acessibilidade: Reduzir movimento */
+@media (prefers-reduced-motion: reduce) {
+    #jumpscare {
+        animation: none;
+    }
+    .glitch {
+        animation: none;
+    }
+    #face {
+        opacity: 1;
+        animation: none;
+    }
+}
 </style>
 </head>
 
